@@ -46,7 +46,7 @@ describe('classifyTriangle: Required input conditions -  See readme for more det
     test('should return "Not a Triangle" for invalid triangle sides', () => {
       expect(classifyTriangle(1, 2, 3)).toBe('Not a Triangle');
       // add more test cases based on your requirements and Boundary Value Analysis + Equivalence Partitioning
-      // ECP TESTS
+      // ECP TEST CASES
       expect(classifyTriangle(1, 2, 40)).toBe('Not a Triangle');
       expect(classifyTriangle(2, 2, 30)).toBe('Not a Triangle');
       // BVT TESTS
